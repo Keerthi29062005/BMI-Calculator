@@ -1,0 +1,30 @@
+{
+    "underweight": {
+      "title": "Health Suggestions for Underweight:",
+      "suggestions": [
+        "Increase Caloric Intake: Focus on nutrient-dense, high-calorie foods such as nuts, seeds, whole grains, and lean proteins.",
+        "Balanced Diet: Include a variety of foods to ensure you're getting enough vitamins and minerals, especially iron and vitamin B12.",
+        "Strength Training: Incorporate weight training into your routine to build muscle mass.",
+        "Frequent Meals: Eat smaller, more frequent meals throughout the day to increase calorie intake."
+      ]
+    },
+    "normal": {
+      "title": "Health Suggestions for Normal Weight:",
+      "suggestions": [
+        "Maintain a Balanced Diet: Continue consuming a balanced diet with an emphasis on whole foods like vegetables, fruits, lean proteins, and healthy fats.",
+        "Regular Exercise: Engage in a mix of cardio and strength training to maintain cardiovascular health and muscle tone.",
+        "Stay Hydrated: Drink plenty of water to maintain hydration.",
+        "Monitor Your Weight: Keep track of your weight to ensure it stays within the normal range."
+      ]
+    },
+    "overweight": {
+      "title": "Health Suggestions for Overweight:",
+      "suggestions": [
+        "Focus on Portion Control: Watch your portion sizes and try to eat more nutrient-dense, lower-calorie foods like fruits and vegetables.",
+        "Increase Physical Activity: Aim for at least 150 minutes of moderate-intensity exercise per week, including both aerobic and strength training.",
+        "Limit Processed Foods: Reduce intake of high-calorie, low-nutrient foods such as sugary drinks and fast food.",
+        "Consider a Balanced Diet Plan: Consult a nutritionist or dietician for a personalized meal plan."
+      ]
+    }
+  }
+  

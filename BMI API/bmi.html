@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Rampart+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rampart+One&display=swap" rel="stylesheet">
+   <style>
+        body{
+            background-color: rgb(48, 43, 73);
+            height: 100vh; /* Set body to take the full viewport height */
+    margin: 0;
+        }
+        h1{
+            display: flex;
+            align-items: center;
+            color: aliceblue;
+            font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+            font-weight: 700; /* Optional: Adjust the weight */
+            margin: 0 auto; /* Centers the h1 horizontally */
+            width: fit-content; 
+        }
+        h2{
+            font-family: 'Lato';
+            font-weight: 1000;
+            color: aliceblue;
+            margin: 0 auto; /* Centers the h1 horizontally */
+            width: fit-content; 
+        }
+        input{ display: flex;
+            margin: 0 auto; /* Centers the h1 horizontally */
+            width: fit-content; 
+        }
+        button{
+            background-color: rgb(27, 63, 104);
+            color: aliceblue;
+            padding: 10px;
+            border-width: 0px;
+            border-radius: 2px;
+            font-family: 'Lato';
+            font-weight: 600;
+            display: flex;
+            margin: 0 auto; /* Centers the h1 horizontally */
+            width: fit-content;
+        }
+        .result{
+            color: aliceblue;
+            font-family: 'Lato';
+            font-weight: 600;
+            display: flex;
+            margin: 0 auto; /* Centers the h1 horizontally */
+            width: fit-content;
+            font-size: 8vh;
+        }
+        .conc{
+            color: aliceblue;
+            font-family: 'Lato';
+            font-weight: 600;
+            display: flex;
+            margin: 0 auto; /* Centers the h1 horizontally */
+            width: fit-content;
+            font-size: 10vh;
+        }
+        .hs{
+            color: aliceblue;
+            font-family: 'Lato';
+            font-weight: 400;
+            display: block;
+            margin: 0 auto; /* Centers the h1 horizontally */
+            width: fit-content;
+            font-size: 3vh; 
+        }
+    </style>
+</head>
+<body>
+    <h1>BMI Calculator</h1>
+    <h2>WEIGHT (in kg)</h2>
+ <input type="number" step="any" id="weight">  
+ <br> 
+ <h2>HEIGHT (in m)</h2>
+ <input type="number" step="any" id="height"> 
+ <br>
+ <button onclick="calculateBMI()">Calculate BMI</button>
+ <br>
+ <div id="result" class="result"></div> 
+ <br>
+ <div id="conc" class="conc"></div>
+ <br>
+ <div id="healthSuggestions" class="hs"></div>
+ <script src="bmi.js"></script>
+</body>
+</html>
